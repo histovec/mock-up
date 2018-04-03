@@ -47,8 +47,9 @@
           <div class="col-md-1">
             <!-- header-left start -->
             <div class="header-left clearfix">
-              <!-- logo -->
+              <!-- deut marianne -->
               <div id="logo"> <a href="#"><img src="assets/images/logo_mi.png" class="img-responsive" alt="Ministère de l'Intérieur"></a></div>
+              <!-- fin marianne -->
             </div>
             <!-- header-left end -->
           </div>
@@ -84,12 +85,12 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                       <!-- main-menu -->
                       <ul class="nav navbar-nav ">
-                        <li class="active mega-menu"> <a href="#">Vos démarches</a> </li>
-                        <li class="mega-menu"> <a href="#">Services</a> </li>
-                        <li class="mega-menu "> <a href="#">Questions fréquentes</a> </li>
+                        <li class="mega-menu"> <a href="#">Acheteur</a> </li>
+                        <li class="mega-menu "> <a href="#">Vendeur</a> </li>
                         <li class="mega-menu"> <a href="#">Infos pros</a> </li>
                         <li class="mega-menu "> <a href="#" >Nos partenaires</a> </li>
-                        <li class="mega-menu "> <a href="#">Contact</a> </li>
+                        <li class="mega-menu "> <a href="faq.html" >FAQ</a> </li>
+                        <li class="mega-menu "> <a href="contact.html">Contact</a> </li>
                       </ul>
                       <!-- main-menu end -->
                     </div>
@@ -111,216 +112,599 @@
   <div class="breadcrumb-container">
     <div class="container">
       <ol class="breadcrumb">
-        <li><i class="fa fa-home pr-10"></i><a href="vendeur_modal_fiche.html">Accueil</a></li>
-        <li class="active">Résultats</li>
+        <li><i class="fa fa-home pr-10"></i><a href="index.html">Accueil</a></li>
+        <li class="active">Résultat</li>
       </ol>
     </div>
   </div>
   <!-- breadcrumb end -->
   <!-- main-container start -->
-  <section class="main-container">
+  <div class="container">
     <div class="row">
-      <!-- main start -->
-      <div class="main col-md-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-5">
-              <div class="alert alert-icon alert-info" role="alert"> <i class="fa fa-window-maximize"></i> Numéro - Plaque d'immatriculation : AA-555-AA</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="alert alert-icon alert-3" role="alert"> <i class="fa fa-info-circle"></i> Vignette Crit'Air - Tous les véhicules <span class="txt-small">100% électrique et hydrogènes</span> </div>
-            </div>
-            <div class="col-sm-2"><img class="img-responsive" src="assets/images/vignettes_crit_air/petit/vignette_3.png"></div>
+      <div class="col-lg-12 mb-20">
+        <!-- debut vignette -->
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="alert alert-icon alert-info" role="alert"> <i class="fa fa-window-maximize"></i> Numéro - Plaque d'immatriculation : AA-555-AA</div>
           </div>
-          <div class="separator-2"></div>
-          <!-- Tabs start -->
-          <div class="vertical">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-              <li class="active"><a href="#vtab1" role="tab" data-toggle="tab"><i class="fa fa-car pr-10"></i>Véhicule</a></li>
-              <li><a href="#vtab2" role="tab" data-toggle="tab"><i class="fa fa-address-card pr-10"></i>Titulaire & Titre</a></li>
-              <li><a href="#vtab3" role="tab" data-toggle="tab"><i class="fa fa-clipboard pr-10"></i> Situation administrative</a></li>
-              <li><a href="#vtab4" role="tab" data-toggle="tab"><i class="fa fa-calculator pr-10"></i> Opération Historique</a></li>
-              <li><a href="#vtab5" role="tab" data-toggle="tab"><i class="fa fa-refresh pr-10"></i> &nbsp;Synthèse</a></li>
-            </ul>
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <!-- debut vtab1 -->
-              <div class="tab-pane fade in active" id="vtab1">
-                <!-- debut tableau vehicule -->
+          <div class="col-sm-5">
+            <div class="alert alert-icon alert-3" role="alert"> <i class="fa fa-info-circle"></i> Vignette Crit'Air - Tous les véhicules <span class="txt-small">100% électrique et hydrogènes</span> </div>
+          </div>
+          <div class="col-sm-2"><img class="img-responsive" src="assets/images/vignettes_crit_air/petit/vignette_3.png"></div>
+        </div>
+        <!-- fin vignette -->
+        <!-- debut trait séparation -->
+        <div class="separator-2"></div>
+        <!-- fin trait séparation -->
+        <!-- debut nouvelle info -->
+        <!-- Tabs start -->
+        <div class="vertical">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a href="#vtab1" role="tab" data-toggle="tab"><i class="fa fa-car pr-10"></i>Véhicule</a></li>
+            <li><a href="#vtab2" role="tab" data-toggle="tab"><i class="fa fa-address-card pr-10"></i>Titulaire & Titre</a></li>
+            <li><a href="#vtab3" role="tab" data-toggle="tab"><i class="fa fa-clipboard pr-10"></i> Situation administrative</a></li>
+            <li><a href="#vtab4" role="tab" data-toggle="tab"><i class="fa fa-calculator pr-10"></i> Opération Historique</a></li>
+            <li><a href="#vtab5" role="tab" data-toggle="tab"><i class="fa fa-refresh pr-10"></i> &nbsp;Synthèse</a></li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="vtab1">
+              <h6 class="title">Caractéristiques technique</h6>
+              <!-- debut tableau vehicule -->
+              <table class="table table-striped table-responsive" >
+                <tr>
+                  <td class="rd_w350">Marque</td>
+                  <td class="bold rd_w150">D.1</td>
+                  <td class="info_red rd_w250">BMW</td>
+                </tr>
+                <tr>
+                  <td>Tvv</td>
+                  <td class="bold">D.2</td>
+                  <td class="info_red">390LVG91AA</td>
+                </tr>
+                <tr>
+                  <td>Nom commercial</td>
+                  <td class="bold">D.3</td>
+                  <td class="info_red">Série 3</td>
+                </tr>
+                <tr>
+                  <td>Numéro CNIT</td>
+                  <td class="bold">D.2.1</td>
+                  <td class="info_red">MBM5752C9489</td>
+                </tr>
+                <tr>
+                  <td>Couleur</td>
+                  <td class="bold">&nbsp;</td>
+                  <td class="info_red">GRIS CLAIR</td>
+                </tr>
+                <tr>
+                  <td>Type de reception</td>
+                  <td class="bold">&nbsp;</td>
+                  <td class="info_red">CE</td>
+                </tr>
+                <tr>
+                  <td class="no-trait-left no-trait-right" colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Numéro d'identification véhicule</td>
+                  <td class="bold">E</td>
+                  <td class="info_red">WBAVG91040A347052</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>PT technique admissible (kg)</td>
+                  <td class="bold">F.1</td>
+                  <td class="info_red">1950</td>
+                </tr>
+                <tr>
+                  <td>PTAC (kg)</td>
+                  <td class="bold">F.2</td>
+                  <td class="info_red">1950</td>
+                </tr>
+                <tr>
+                  <td>PTRA (kg)</td>
+                  <td class="bold">F.3</td>
+                  <td class="info_red">3625</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>PT en service (kg)</td>
+                  <td class="bold">G</td>
+                  <td class="info_red">1950</td>
+                </tr>
+                <tr>
+                  <td>PTAV (kg)</td>
+                  <td class="bold">G.1</td>
+                  <td class="info_red">1430</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Catégorie (Ce)</td>
+                  <td class="bold">J</td>
+                  <td class="info_red">M1</td>
+                </tr>
+                <tr>
+                  <td>Genre (National)</td>
+                  <td class="bold">J.1</td>
+                  <td class="info_red">VP</td>
+                </tr>
+                <tr>
+                  <td>Carrosserie (Ce)</td>
+                  <td class="bold">J.2</td>
+                  <td class="info_red">AA</td>
+                </tr>
+                <tr>
+                  <td>Carrosserie (National)</td>
+                  <td class="bold">J.3</td>
+                  <td class="info_red">CI</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Numéro de réception</td>
+                  <td class="bold">K</td>
+                  <td class="info_red">e1*2001/116*0308*08</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Cylindrée (cm3)</td>
+                  <td class="bold">P.1</td>
+                  <td class="info_red">1995</td>
+                </tr>
+                <tr>
+                  <td>Puissance nette max (kW)</td>
+                  <td class="bold">P.2</td>
+                  <td class="info_red">130</td>
+                </tr>
+                <tr>
+                  <td>Energie</td>
+                  <td class="bold">P.3</td>
+                  <td class="info_red">GO</td>
+                </tr>
+                <tr>
+                  <td>Puissance CV</td>
+                  <td class="bold">P.6</td>
+                  <td class="info_red">9</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Puissance / masse (kW/kg)</td>
+                  <td class="bold">Q</td>
+                  <td class="info_red">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Places assises</td>
+                  <td class="bold">S.1</td>
+                  <td class="info_red">5</td>
+                </tr>
+                <tr>
+                  <td>Pace debout</td>
+                  <td class="bold">S.3</td>
+                  <td class="info_red">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Niveau sonore (db(A))</td>
+                  <td class="bold">U.1</td>
+                  <td class="info_red">73</td>
+                </tr>
+                <tr>
+                  <td>Vitesse moteur (min-1)</td>
+                  <td class="bold">U.2</td>
+                  <td class="info_red">3000</td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>CO2 (g/km)</td>
+                  <td class="bold">V.7</td>
+                  <td class="info_red">128</td>
+                </tr>
+                <tr>
+                  <td>Classe environnement (CE)</td>
+                  <td class="bold">V.9</td>
+                  <td class="info_red">70/220*2003/76EURO4</td>
+                </tr>
+              </table>
+              <!-- fin tableau vehicule -->
+              <!-- debut tableau controle technique -->
+              <table class="table table-striped table-responsive" >
+                <tr>
+                  <td colspan="4"><h6>Contrôle technique</h6></td>
+                </tr>
+                <tr>
+                  <td class="bold">OTC</td>
+                  <td>Résultat</td>
+                  <td><span class="label label-success">Accepté</span></td>
+                  <td>Date du contrôle</td>
+                  <td class="info_red">21/04/2016</td>
+                  <td>Fin de validité</td>
+                  <td class="info_red">201/04/2018</td>
+                </tr>
+                <tr>
+                  <td class="bold">SIV</td>
+                  <td>Résultat</td>
+                  <td><span class="label label-warning">Réfusé</span></td>
+                  <td>Date du contrôle</td>
+                  <td class="info_red">21/04/2016</td>
+                  <td>Fin de validité</td>
+                  <td class="info_red">201/04/2018</td>
+                </tr>
+              </table>
+              <!-- fin tableau controle technique -->
+              <!-- debut mentions particuliéres -->
+              <table class="table table-striped table-responsive" >
+                <tr>
+                  <td><h6>Mentions particulières</h6></td>
+                </tr>
+                <tr>
+                  <td><div class="alert alert-info" role="alert"> Aucun élément dans la liste.</div></td>
+                </tr>
+              </table>
+              <!-- fin mentions particuliéres -->
+            </div>
+            <div class="tab-pane fade" id="vtab2">
+              <h6 class="title">Titulaire et co-titulaires</h6>
+              <!-- debut titulaire et co-titulaire -->
+              <table class="table table-striped table-responsive" >
+                <tr >
+                  <td class="rd_w350">Nature</td>
+                  <td class="info_red">Titulaire</td>
+                </tr>
+                <tr>
+                  <td>Identité</td>
+                  <td class="info_red">PRBUISNESS 123456789</td>
+                </tr>
+                <tr>
+                  <td>Adresse</td>
+                  <td class="info_red">38, avenue Guy Mocquet, 75000 Paris</td>
+                </tr>
+              </table>
+              <!-- fin tableau titulaire et co-titulaire -->
+              <h6 class="title">Certificat d'Immatriculation</h6>
+              <!-- debut tableau certificat d'immatriculation -->
+              <table class="table table-striped table-responsive" >
+                <tr>
+                  <td class="rd_w350">Date de première immatriculation</td>
+                  <td class="info_red">16/06/2008</td>
+                </tr>
+                <tr>
+                  <td>Date du CI</td>
+                  <td class="info_red">17/06/2016</td>
+                </tr>
+              </table>
+              <!-- debut tableau certificat d'immatriculation -->
+            </div>
+            <div class="tab-pane fade" id="vtab3">
+              <div class="col-sm-6">
+                <h6>Gages</h6>
+                <!-- debut tableau gages -->
                 <table class="table table-responsive">
                   <tr>
-                    <td colspan="7"><h6>Caractéristiques techniques</h6></td>
+                    <td class="info_red">Aucun gages</td>
+                  </tr>
+                </table>
+                <!-- fin tableau gages -->
+              </div>
+              <div class="col-sm-6">
+                <h6>Oppositions</h6>
+                <!-- debut tableau oppositions -->
+                <table class="table table-responsive">
+                  <tr>
+                    <td class="info_red">Aucune opposition</td>
+                  </tr>
+                </table>
+                <!-- fin tableau oppositions -->
+              </div>
+              <div class="col-sm-6">
+                <h6>Suspensions</h6>
+                <!-- debut tableau suspensions -->
+                <table class="table table-responsive">
+                  <tr>
+                    <td class="info_red">Aucune suspension</td>
+                  </tr>
+                </table>
+                <!-- fin tableau suspensions -->
+              </div>
+              <div class="col-sm-6">
+                <h6>Procédures</h6>
+                <!-- debut tableau procédures -->
+                <table class="table table-responsive">
+                  <tr>
+                    <td class="info_red">Aucune procédure</td>
+                  </tr>
+                </table>
+                <!-- fin tableau procédures -->
+              </div>
+              <div class="col-sm-6">
+                <h6>Véhicule</h6>
+                <!-- debut tableau véhicule -->
+                <table class="table table-responsive">
+                  <tr>
+                    <td>Etat de vol</td>
+                    <td class="info_red">Non volé</td>
+                  </tr>
+                </table>
+                <!-- fin tableau véhicule -->
+              </div>
+              <div class="col-sm-6">
+                <h6>Etats</h6>
+                <!-- debut tableau titre -->
+                <table class="table table-responsive">
+                  <tr>
+                    <td>Etat de vol</td>
+                    <td class="info_red">Aucune information</td>
                   </tr>
                   <tr>
-                    <td>Marque</td>
-                    <td class="bold">D.1</td>
-                    <td class="info_red">BMW</td>
-                    <td>&nbsp;</td>
-                    <td>Cyclindrée (cm3)</td>
-                    <td class="bold">P.1</td>
-                    <td class="info_red">1995</td>
+                    <td>Etat de perte</td>
+                    <td class="info_red">Aucune information</td>
+                  </tr>
+                  <tr>
+                    <td>Duplicata</td>
+                    <td class="info_red">Aucun</td>
+                  </tr>
+                  <tr>
+                    <td>Remise du titre</td>
+                    <td class="info_red">Aucune information</td>
+                  </tr>
+                </table>
+                <!-- fin tableau titre -->
+              </div>
+              <!-- debut bouton imprimer csa detaille -->
+              <div class="col-sm-6">
+                <button type="button" class="btn btn-animated btn-default btn-sm marg_but pop" data-container="body" data-toggle="popover" data-placement="top" data-content="Le certificat de situation administrative (CSA) est un document délivré par le ministère de l'Intérieur contenant des éléments d'information sur la situation administrative d'un véhicule.<br>Le CSA détaillé fait apparaître l'ensemble des informations relatives à la situation du véhicule."
+  data-original-title="CSA" title="CSA"> Imprimer CSA détaillé<i class="fa fa-print"></i> </button>
+              </div>
+              <!-- fin bouton imprimer csa detaille -->
+            </div>
+            <div class="tab-pane fade" id="vtab4">
+              <!-- debut tableau operation historique -->
+              <table class="table table-responsive">
+                <tr>
+                  <td class="rd_w350"><h6>Date</h6></td>
+                  <td><h6>Nature</h6></td>
+                </tr>
+                <tr>
+                  <td>17/06/2008</td>
+                  <td class="info_red">Première immatriculation</td>
+                </tr>
+                <tr>
+                  <td>21/01/2009</td>
+                  <td class="info_red">Achat</td>
+                </tr>
+                <tr>
+                  <td>23/10/2009</td>
+                  <td class="info_red">Achat</td>
+                </tr>
+                <tr>
+                  <td>18/11/2009</td>
+                  <td class="info_red">Déclaration de Réimmatriculation à l'étrangé</td>
+                </tr>
+                <tr>
+                  <td>03/12/2009</td>
+                  <td class="info_red">Changement de titulaire  et réimmatriculation France</td>
+                </tr>
+                <tr>
+                  <td>17/06/2016</td>
+                  <td class="info_red">Changement de titulaire</td>
+                </tr>
+              </table>
+              <!-- fin tableau operation historique -->
+            </div>
+            <div class="tab-pane fade" id="vtab5">
+              <h6 class="title">Titre</h6>
+            </div>
+          </div>
+        </div>
+        <!-- tabs end -->
+        <!-- debut trait de séparation -->
+        <hr class="style1">
+        <!-- fin trait de séparation -->
+        <!-- debut tout voir -->
+        <h3 class="title"><span class="text-default">V</span>oir tout</h3>
+        <p>Vous avez la possibilité de visionner tous les thèmes</p>
+        <a class="btn btn-default collapsed btn-animated " data-toggle="collapse" href="#collapseContent" aria-expanded="false" aria-controls="collapseContent"> Ouvrir<i class="fa fa-plus"></i></a>
+        <div class="collapse" id="collapseContent">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- debut vehicule -->
+              <h6>Véhicule</h6>
+              <div>
+                <!-- debut tableau vehicule -->
+                <table class="table table-striped table-responsive" >
+                  <tr>
+                    <td class="rd_w350">Marque</td>
+                    <td class="bold rd_w150">D.1</td>
+                    <td class="info_red rd_w250">BMW</td>
                   </tr>
                   <tr>
                     <td>Tvv</td>
                     <td class="bold">D.2</td>
                     <td class="info_red">390LVG91AA</td>
-                    <td>&nbsp;</td>
-                    <td>Puissance nette max (kW)</td>
-                    <td class="bold">P.2</td>
-                    <td class="info_red">130</td>
                   </tr>
                   <tr>
                     <td>Nom commercial</td>
                     <td class="bold">D.3</td>
                     <td class="info_red">Série 3</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td colspan="7"><div class="separator-2"></div></td>
                   </tr>
                   <tr>
                     <td>Numéro CNIT</td>
                     <td class="bold">D.2.1</td>
                     <td class="info_red">MBM5752C9489</td>
-                    <td>&nbsp;</td>
-                    <td>Energie</td>
-                    <td class="bold">P.3</td>
-                    <td class="info_red">GO</td>
+                  </tr>
+                  <tr>
+                    <td>Couleur</td>
+                    <td class="bold">&nbsp;</td>
+                    <td class="info_red">GRIS CLAIR</td>
+                  </tr>
+                  <tr>
+                    <td>Type de reception</td>
+                    <td class="bold">&nbsp;</td>
+                    <td class="info_red">CE</td>
+                  </tr>
+                  <tr>
+                    <td class="no-trait-left no-trait-right" colspan="3">&nbsp;</td>
                   </tr>
                   <tr>
                     <td>Numéro d'identification véhicule</td>
                     <td class="bold">E</td>
                     <td class="info_red">WBAVG91040A347052</td>
-                    <td>&nbsp;</td>
-                    <td>Puissance CV</td>
-                    <td class="bold">P.6</td>
-                    <td class="info_red">9</td>
                   </tr>
                   <tr>
-                    <td>Couleur nuance</td>
-                    <td>&nbsp;</td>
-                    <td class="info_red">GRIS CLAIR</td>
-                    <td>&nbsp;</td>
-                    <td>Puissance (kW/kg)</td>
-                    <td class="bold">Q</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td colspan="7"><div class="separator-2"></div></td>
+                    <td colspan="3">&nbsp;</td>
                   </tr>
                   <tr>
                     <td>PT technique admissible (kg)</td>
                     <td class="bold">F.1</td>
                     <td class="info_red">1950</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <td>PTAC (kg)</td>
                     <td class="bold">F.2</td>
                     <td class="info_red">1950</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <td>PTRA (kg)</td>
                     <td class="bold">F.3</td>
                     <td class="info_red">3625</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                   </tr>
                   <tr>
-                    <td colspan="7"><div class="separator-2"></div></td>
+                    <td colspan="3">&nbsp;</td>
                   </tr>
                   <tr>
                     <td>PT en service (kg)</td>
                     <td class="bold">G</td>
-                    <td class="info_red">1505</td>
-                    <td>&nbsp;</td>
-                    <td>Place assises</td>
-                    <td class="bold">S.1</td>
-                    <td class="info_red">5</td>
+                    <td class="info_red">1950</td>
                   </tr>
                   <tr>
                     <td>PTAV (kg)</td>
                     <td class="bold">G.1</td>
                     <td class="info_red">1430</td>
-                    <td>&nbsp;</td>
-                    <td>Pace debout</td>
-                    <td class="bold">S.2</td>
-                    <td>&nbsp;</td>
                   </tr>
                   <tr>
-                    <td colspan="7"><div class="separator-2"></div></td>
+                    <td colspan="3">&nbsp;</td>
                   </tr>
                   <tr>
                     <td>Catégorie (Ce)</td>
                     <td class="bold">J</td>
                     <td class="info_red">M1</td>
-                    <td>&nbsp;</td>
-                    <td>Niveau sonore (dB(A))</td>
-                    <td class="bold">U.1</td>
-                    <td class="info_red">73</td>
                   </tr>
                   <tr>
                     <td>Genre (National)</td>
                     <td class="bold">J.1</td>
                     <td class="info_red">VP</td>
-                    <td>&nbsp;</td>
-                    <td>Vitesse moteur (min-1)</td>
-                    <td class="bold">U.2</td>
-                    <td class="info_red">3000</td>
                   </tr>
                   <tr>
                     <td>Carrosserie (Ce)</td>
                     <td class="bold">J.2</td>
                     <td class="info_red">AA</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <td>Carrosserie (National)</td>
                     <td class="bold">J.3</td>
                     <td class="info_red">CI</td>
-                    <td>&nbsp;</td>
-                    <td>CO2 (g/km)</td>
-                    <td class="bold">V.7</td>
-                    <td class="info_red">128</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
                   </tr>
                   <tr>
                     <td>Numéro de réception</td>
                     <td class="bold">K</td>
                     <td class="info_red">e1*2001/116*0308*08</td>
-                    <td>&nbsp;</td>
-                    <td>Classe Environnement (CE)</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>Cylindrée (cm3)</td>
+                    <td class="bold">P.1</td>
+                    <td class="info_red">1995</td>
+                  </tr>
+                  <tr>
+                    <td>Puissance nette max (kW)</td>
+                    <td class="bold">P.2</td>
+                    <td class="info_red">130</td>
+                  </tr>
+                  <tr>
+                    <td>Energie</td>
+                    <td class="bold">P.3</td>
+                    <td class="info_red">GO</td>
+                  </tr>
+                  <tr>
+                    <td>Puissance CV</td>
+                    <td class="bold">P.6</td>
+                    <td class="info_red">9</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>Puissance / masse (kW/kg)</td>
+                    <td class="bold">Q</td>
+                    <td class="info_red">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>Places assises</td>
+                    <td class="bold">S.1</td>
+                    <td class="info_red">5</td>
+                  </tr>
+                  <tr>
+                    <td>Pace debout</td>
+                    <td class="bold">S.3</td>
+                    <td class="info_red">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>Niveau sonore (db(A))</td>
+                    <td class="bold">U.1</td>
+                    <td class="info_red">73</td>
+                  </tr>
+                  <tr>
+                    <td>Vitesse moteur (min-1)</td>
+                    <td class="bold">U.2</td>
+                    <td class="info_red">3000</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>CO2 (g/km)</td>
+                    <td class="bold">V.7</td>
+                    <td class="info_red">128</td>
+                  </tr>
+                  <tr>
+                    <td>Classe environnement (CE)</td>
                     <td class="bold">V.9</td>
                     <td class="info_red">70/220*2003/76EURO4</td>
                   </tr>
-                  <tr>
-                    <td>Type de réception</td>
-                    <td>&nbsp;</td>
-                    <td class="info_red">CE</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
                 </table>
                 <!-- fin tableau vehicule -->
+                <div class="separator"></div>
                 <!-- debut tableau controle technique -->
-                <table class="table table-responsive">
+                <table class="table table-striped table-responsive" >
                   <tr>
                     <td colspan="4"><h6>Contrôle technique</h6></td>
                   </tr>
@@ -344,8 +728,9 @@
                   </tr>
                 </table>
                 <!-- fin tableau controle technique -->
+                <div class="separator"></div>
                 <!-- debut mentions particuliéres -->
-                <table class="table table-responsive">
+                <table class="table table-striped table-responsive" >
                   <tr>
                     <td><h6>Mentions particulières</h6></td>
                   </tr>
@@ -355,572 +740,85 @@
                 </table>
                 <!-- fin mentions particuliéres -->
               </div>
-              <!-- fin vtab1 -->
-              <!-- debut vtab2 -->
-              <div class="tab-pane fade" id="vtab2">
-                <!-- debut tableau titulaire et co-titulaires -->
-                <table class="table table-responsive">
-                  <tr>
-                    <td colspan="4"><h6>Titulaire et co-titulaires</h6></td>
-                  </tr>
-                  <tr >
-                    <td>Nature</td>
-                    <td class="info_red">Titulaire</td>
-                  </tr>
-                  <tr>
-                    <td>Identité</td>
-                    <td class="info_red">PRBUISNESS 123456789</td>
-                  </tr>
-                  <tr>
-                    <td>Adresse</td>
-                    <td class="info_red">38, avenue Guy Mocquet, 75000 Paris</td>
-                  </tr>
-                  <tr>
-                    <td colspan="4"><h6>Certificat d'Immatriculation</h6></td>
-                  </tr>
-                  <tr>
-                    <td>Date de première immatriculation</td>
-                    <td class="info_red">16/06/2008</td>
-                  </tr>
-                  <tr>
-                    <td>Date du CI</td>
-                    <td class="info_red">17/06/2016</td>
-                  </tr>
-                </table>
-                <!-- fin tableau Titulaire et co-titulaires -->
-              </div>
-              <!-- fin vtab2 -->
-              <!-- debut vtab3 -->
-              <div class="tab-pane fade" id="vtab3">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <!-- debut tableau situation administratvive -->
-                    <table class="table table-responsive">
-                      <tr>
-                        <td colspan="4"><h6>Gages</h6></td>
-                      </tr>
-                      <tr>
-                        <td class="info_red">Aucun gages</td>
-                      </tr>
-                    </table>
-                    <!-- fin tableau gages -->
-                  </div>
-                  <div class="col-sm-6">
-                    <!-- debut tableau oppositions -->
-                    <table class="table">
-                      <tr>
-                        <td colspan="4"><h6>Oppositions</h6></td>
-                      </tr>
-                      <tr>
-                        <td class="info_red">Aucune opposition</td>
-                      </tr>
-                    </table>
-                    <!-- fin tableau oppositions -->
-                  </div>
-                  <div class="col-sm-6">
-                    <!-- debut tableau suspensions -->
-                    <table class="table">
-                      <tr>
-                        <td colspan="4"><h6>Suspensions</h6></td>
-                      </tr>
-                      <tr>
-                        <td class="info_red">Aucune suspension</td>
-                      </tr>
-                    </table>
-                    <!-- fin tableau suspensions -->
-                  </div>
-                  <div class="col-sm-6">
-                    <!-- debut tableau procédures -->
-                    <table class="table">
-                      <tr>
-                        <td colspan="4"><h6>Procédures</h6></td>
-                      </tr>
-                      <tr>
-                        <td class="info_red">Aucune procédure</td>
-                      </tr>
-                    </table>
-                    <!-- fin tableau procédures -->
-                  </div>
-                  <div class="col-sm-6">
-                    <!-- debut tableau véhicule -->
-                    <table class="table">
-                      <tr>
-                        <td colspan="4"><h6>Véhicule</h6></td>
-                      </tr>
-                      <tr>
-                        <td>Etat de vol</td>
-                        <td class="info_red">Non volé</td>
-                      </tr>
-                    </table>
-                    <!-- fin tableau véhicule -->
-                  </div>
-                  <div class="col-sm-6">
-                    <!-- debut tableau titre -->
-                    <table class="table">
-                      <tr>
-                        <td colspan="4"><h6>Titre</h6></td>
-                      </tr>
-                      <tr>
-                        <td>Etat de vol</td>
-                        <td class="info_red">Aucune information</td>
-                      </tr>
-                      <tr>
-                        <td>Etat de perte</td>
-                        <td class="info_red">Aucune information</td>
-                      </tr>
-                      <tr>
-                        <td>Duplicata</td>
-                        <td class="info_red">Aucun</td>
-                      </tr>
-                      <tr>
-                        <td>Remise du titre</td>
-                        <td class="info_red">Aucune information</td>
-                      </tr>
-                    </table>
-                    <!-- fin tableau Situation administratvive (titre) -->
-                  </div>
-                </div>
-                <div class="col-lg-12"> <a href="#" class="btn btn-animated btn-default btn-sm marg_but">Visualiser le certificat de situation administrative simple <i class="fa fa-address-book-o"></i></a><a href="#" class="btn btn-animated btn-default btn-sm">Visualiser le certificat de situation administrative détaillé <i class="fa fa-address-card-o"></i></a></div>
-              </div>
-              <!-- fin vtab3 -->
-              <!-- debut vtab4 -->
-              <div class="tab-pane fade" id="vtab4">
-                <table class="table">
-                  <tr>
-                    <td><h6>Date</h6></td>
-                    <td><h6>Nature</h6></td>
-                  </tr>
-                  <tr>
-                    <td>17/06/2008</td>
-                    <td class="info_red">Première immatriculation</td>
-                  </tr>
-                  <tr>
-                    <td>21/01/2009</td>
-                    <td class="info_red">Achat</td>
-                  </tr>
-                  <tr>
-                    <td>23/10/2009</td>
-                    <td class="info_red">Achat</td>
-                  </tr>
-                  <tr>
-                    <td>18/11/2009</td>
-                    <td class="info_red">Déclaration de Réimmatriculation à l'étrangé</td>
-                  </tr>
-                  <tr>
-                    <td>03/12/2009</td>
-                    <td class="info_red">Changement de titulaire  et réimmatriculation France</td>
-                  </tr>
-                  <tr>
-                    <td>17/06/2016</td>
-                    <td class="info_red">Changement de titulaire</td>
-                  </tr>
-                </table>
-              </div>
-              <!-- fin vtab4 -->
-              <!-- debut vtab5 -->
-              <div class="tab-pane fade" id="vtab5"> </div>
-              <!-- fin vtab5 -->
+              <!-- fin vehicule -->
+              <div class="separator"></div>
+              <h6 class="title">Titulaire et co-titulaires</h6>
+              <!-- debut titulaire et co-titulaire -->
+              <table class="table table-striped table-responsive" >
+                <tr >
+                  <td class="rd_w350">Nature</td>
+                  <td class="info_red">Titulaire</td>
+                </tr>
+                <tr>
+                  <td>Identité</td>
+                  <td class="info_red">PRBUISNESS 123456789</td>
+                </tr>
+                <tr>
+                  <td>Adresse</td>
+                  <td class="info_red">38, avenue Guy Mocquet, 75000 Paris</td>
+                </tr>
+              </table>
+              <!-- fin tableau titulaire et co-titulaire -->
+              <h6 class="title">Certificat d'Immatriculation</h6>
+              <!-- debut tableau certificat d'immatriculation -->
+              <table class="table table-striped table-responsive" >
+                <tr>
+                  <td class="rd_w350">Date de première immatriculation</td>
+                  <td class="info_red">16/06/2008</td>
+                </tr>
+                <tr>
+                  <td>Date du CI</td>
+                  <td class="info_red">17/06/2016</td>
+                </tr>
+              </table>
+              <!-- debut tableau certificat d'immatriculation -->
+              <div class="separator"></div>
+              <h6>Opération historique</h6>
+              <!-- debut situation administrative -->
+              <table class="table table-responsive">
+                <tr>
+                  <td class="rd_w350"><h6>Date</h6></td>
+                  <td><h6>Nature</h6></td>
+                </tr>
+                <tr>
+                  <td>17/06/2008</td>
+                  <td class="info_red">Première immatriculation</td>
+                </tr>
+                <tr>
+                  <td>21/01/2009</td>
+                  <td class="info_red">Achat</td>
+                </tr>
+                <tr>
+                  <td>23/10/2009</td>
+                  <td class="info_red">Achat</td>
+                </tr>
+                <tr>
+                  <td>18/11/2009</td>
+                  <td class="info_red">Déclaration de Réimmatriculation à l'étrangé</td>
+                </tr>
+                <tr>
+                  <td>03/12/2009</td>
+                  <td class="info_red">Changement de titulaire  et réimmatriculation France</td>
+                </tr>
+                <tr>
+                  <td>17/06/2016</td>
+                  <td class="info_red">Changement de titulaire</td>
+                </tr>
+              </table>
+              <!-- fin situation administrative -->
+              <div class="separator"></div>
+              <h6>Synthèse</h6>
+              <!-- debut synthèse -->
+              <!-- fin synthèse -->
             </div>
           </div>
-          <!-- tabs end -->
-          <!-- debut tout voir -->
-          <h3 class="title"><span class="text-default">V</span>oir tout</h3>
-          <p>Vous avez la possibilité de visionner tous les thèmes</p>
-          <a class="btn btn-default collapsed btn-animated " data-toggle="collapse" href="#collapseContent" aria-expanded="false" aria-controls="collapseContent"> Ouvrir<i class="fa fa-plus"></i></a>
-          <div class="collapse" id="collapseContent">
-            <div class="row">
-              <div class="col-lg-12">
-                <!-- debut vehicule -->
-                <h5>Véhicule</h5>
-                <div>
-                  <!-- debut tableau vehicule -->
-                  <table class="table table-responsive">
-                    <tr>
-                      <td colspan="7"><h6>Caractéristiques techniques</h6></td>
-                    </tr>
-                    <tr>
-                      <td>Marque</td>
-                      <td class="bold">D.1</td>
-                      <td class="info_red">BMW</td>
-                      <td>&nbsp;</td>
-                      <td>Cyclindrée (cm3)</td>
-                      <td class="bold">P.1</td>
-                      <td class="info_red">1995</td>
-                    </tr>
-                    <tr>
-                      <td>Tvv</td>
-                      <td class="bold">D.2</td>
-                      <td class="info_red">390LVG91AA</td>
-                      <td>&nbsp;</td>
-                      <td>Puissance nette max (kW)</td>
-                      <td class="bold">P.2</td>
-                      <td class="info_red">130</td>
-                    </tr>
-                    <tr>
-                      <td>Nom commercial</td>
-                      <td class="bold">D.3</td>
-                      <td class="info_red">Série 3</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td colspan="7"><div class="separator-2"></div></td>
-                    </tr>
-                    <tr>
-                      <td>Numéro CNIT</td>
-                      <td class="bold">D.2.1</td>
-                      <td class="info_red">MBM5752C9489</td>
-                      <td>&nbsp;</td>
-                      <td>Energie</td>
-                      <td class="bold">P.3</td>
-                      <td class="info_red">GO</td>
-                    </tr>
-                    <tr>
-                      <td>Numéro d'identification véhicule</td>
-                      <td class="bold">E</td>
-                      <td class="info_red">WBAVG91040A347052</td>
-                      <td>&nbsp;</td>
-                      <td>Puissance CV</td>
-                      <td class="bold">P.6</td>
-                      <td class="info_red">9</td>
-                    </tr>
-                    <tr>
-                      <td>Couleur nuance</td>
-                      <td>&nbsp;</td>
-                      <td class="info_red">GRIS CLAIR</td>
-                      <td>&nbsp;</td>
-                      <td>Puissance (kW/kg)</td>
-                      <td class="bold">Q</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td colspan="7"><div class="separator-2"></div></td>
-                    </tr>
-                    <tr>
-                      <td>PT technique admissible (kg)</td>
-                      <td class="bold">F.1</td>
-                      <td class="info_red">1950</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td>PTAC (kg)</td>
-                      <td class="bold">F.2</td>
-                      <td class="info_red">1950</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td>PTRA (kg)</td>
-                      <td class="bold">F.3</td>
-                      <td class="info_red">3625</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td colspan="7"><div class="separator-2"></div></td>
-                    </tr>
-                    <tr>
-                      <td>PT en service (kg)</td>
-                      <td class="bold">G</td>
-                      <td class="info_red">1505</td>
-                      <td>&nbsp;</td>
-                      <td>Place assises</td>
-                      <td class="bold">S.1</td>
-                      <td class="info_red">5</td>
-                    </tr>
-                    <tr>
-                      <td>PTAV (kg)</td>
-                      <td class="bold">G.1</td>
-                      <td class="info_red">1430</td>
-                      <td>&nbsp;</td>
-                      <td>Pace debout</td>
-                      <td class="bold">S.2</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td colspan="7"><div class="separator-2"></div></td>
-                    </tr>
-                    <tr>
-                      <td>Catégorie (Ce)</td>
-                      <td class="bold">J</td>
-                      <td class="info_red">M1</td>
-                      <td>&nbsp;</td>
-                      <td>Niveau sonore (dB(A))</td>
-                      <td class="bold">U.1</td>
-                      <td class="info_red">73</td>
-                    </tr>
-                    <tr>
-                      <td>Genre (National)</td>
-                      <td class="bold">J.1</td>
-                      <td class="info_red">VP</td>
-                      <td>&nbsp;</td>
-                      <td>Vitesse moteur (min-1)</td>
-                      <td class="bold">U.2</td>
-                      <td class="info_red">3000</td>
-                    </tr>
-                    <tr>
-                      <td>Carrosserie (Ce)</td>
-                      <td class="bold">J.2</td>
-                      <td class="info_red">AA</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td>Carrosserie (National)</td>
-                      <td class="bold">J.3</td>
-                      <td class="info_red">CI</td>
-                      <td>&nbsp;</td>
-                      <td>CO2 (g/km)</td>
-                      <td class="bold">V.7</td>
-                      <td class="info_red">128</td>
-                    </tr>
-                    <tr>
-                      <td>Numéro de réception</td>
-                      <td class="bold">K</td>
-                      <td class="info_red">e1*2001/116*0308*08</td>
-                      <td>&nbsp;</td>
-                      <td>Classe Environnement (CE)</td>
-                      <td class="bold">V.9</td>
-                      <td class="info_red">70/220*2003/76EURO4</td>
-                    </tr>
-                    <tr>
-                      <td>Type de réception</td>
-                      <td>&nbsp;</td>
-                      <td class="info_red">CE</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                    </tr>
-                  </table>
-                  <!-- fin tableau vehicule -->
-                  <div class="separator-2"></div>
-                  <!-- debut tableau controle technique -->
-                  <table class="table table-responsive">
-                    <tr>
-                      <td colspan="4"><h6>Contrôle technique</h6></td>
-                    </tr>
-                    <tr>
-                      <td class="bold">OTC</td>
-                      <td>Résultat</td>
-                      <td><span class="label label-success">Accepté</span></td>
-                      <td>Date du contrôle</td>
-                      <td class="info_red">21/04/2016</td>
-                      <td>Fin de validité</td>
-                      <td class="info_red">201/04/2018</td>
-                    </tr>
-                    <tr>
-                      <td class="bold">SIV</td>
-                      <td>Résultat</td>
-                      <td><span class="label label-warning">Réfusé</span></td>
-                      <td>Date du contrôle</td>
-                      <td class="info_red">21/04/2016</td>
-                      <td>Fin de validité</td>
-                      <td class="info_red">201/04/2018</td>
-                    </tr>
-                  </table>
-                  <!-- fin tableau controle technique -->
-                  <div class="separator-2"></div>
-                  <!-- debut mentions particuliéres -->
-                  <table class="table table-responsive">
-                    <tr>
-                      <td><h6>Mentions particulières</h6></td>
-                    </tr>
-                    <tr>
-                      <td><div class="alert alert-info" role="alert"> Aucun élément dans la liste.</div></td>
-                    </tr>
-                  </table>
-                  <!-- fin mentions particuliéres -->
-                </div>
-                <!-- fin vehicule -->
-                <div class="separator"></div>
-                <!-- debut titulaire & titre -->
-                <h5>Titulaire & Titre</h5>
-                <div>
-                  <!-- debut tableau titulaire et co-titulaires -->
-                  <table class="table table-responsive">
-                    <tr>
-                      <td colspan="4"><h6>Titulaire et co-titulaires</h6></td>
-                    </tr>
-                    <tr >
-                      <td>Nature</td>
-                      <td class="info_red">Titulaire</td>
-                    </tr>
-                    <tr>
-                      <td>Identité</td>
-                      <td class="info_red">PRBATIMENT 809498769</td>
-                    </tr>
-                    <tr>
-                      <td>Adresse</td>
-                      <td class="info_red">38, avenue Guy de Maupassant, 78400 Chatou</td>
-                    </tr>
-                    <tr>
-                      <td colspan="4"><h6>Certificat d'Immatriculation</h6></td>
-                    </tr>
-                    <tr>
-                      <td>Date de première immatriculation</td>
-                      <td class="info_red">16/06/2008</td>
-                    </tr>
-                    <tr>
-                      <td>Date du CI</td>
-                      <td class="info_red">17/06/2016</td>
-                    </tr>
-                  </table>
-                  <!-- fin tableau titulaire et co-titulaires -->
-                </div>
-                <!-- fin titulaire & titre -->
-                <div class="separator"></div>
-                <!-- debut situation administrative -->
-                <h5>Situation administrative</h5>
-                <div>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <!-- debut tableau situation administratvive -->
-                      <table class="table table-responsive">
-                        <tr>
-                          <td colspan="4"><h6>Gages</h6></td>
-                        </tr>
-                        <tr>
-                          <td class="info_red">Aucun gages</td>
-                        </tr>
-                      </table>
-                      <!-- fin tableau gages -->
-                    </div>
-                    <div class="col-sm-6">
-                      <!-- debut tableau oppositions -->
-                      <table class="table">
-                        <tr>
-                          <td colspan="4"><h6>Oppositions</h6></td>
-                        </tr>
-                        <tr>
-                          <td class="info_red">Aucune opposition</td>
-                        </tr>
-                      </table>
-                      <!-- fin tableau oppositions -->
-                    </div>
-                    <div class="col-sm-6">
-                      <!-- debut tableau suspensions -->
-                      <table class="table">
-                        <tr>
-                          <td colspan="4"><h6>Suspensions</h6></td>
-                        </tr>
-                        <tr>
-                          <td class="info_red">Aucune suspension</td>
-                        </tr>
-                      </table>
-                      <!-- fin tableau suspensions -->
-                    </div>
-                    <div class="col-sm-6">
-                      <!-- debut tableau procédures -->
-                      <table class="table">
-                        <tr>
-                          <td colspan="4"><h6>Procédures</h6></td>
-                        </tr>
-                        <tr>
-                          <td class="info_red">Aucune procédure</td>
-                        </tr>
-                      </table>
-                      <!-- fin tableau procédures -->
-                    </div>
-                    <div class="col-sm-6">
-                      <!-- debut tableau véhicule -->
-                      <table class="table">
-                        <tr>
-                          <td colspan="4"><h6>Véhicule</h6></td>
-                        </tr>
-                        <tr>
-                          <td>Etat de vol</td>
-                          <td class="info_red">Non volé</td>
-                        </tr>
-                      </table>
-                      <!-- fin tableau véhicule -->
-                    </div>
-                    <div class="col-sm-6">
-                      <!-- debut tableau titre -->
-                      <table class="table">
-                        <tr>
-                          <td colspan="4"><h6>Titre</h6></td>
-                        </tr>
-                        <tr>
-                          <td>Etat de vol</td>
-                          <td class="info_red">Aucune information</td>
-                        </tr>
-                        <tr>
-                          <td>Etat de perte</td>
-                          <td class="info_red">Aucune information</td>
-                        </tr>
-                        <tr>
-                          <td>Duplicata</td>
-                          <td class="info_red">Aucun</td>
-                        </tr>
-                        <tr>
-                          <td>Remise du titre</td>
-                          <td class="info_red">Aucune information</td>
-                        </tr>
-                      </table>
-                      <!-- fin tableau Situation administratvive (titre) -->
-                    </div>
-                    <div class="col-lg-12"> <a href="#" class="btn btn-animated btn-default btn-sm marg_but">Visualiser le certificat de situation administrative simple <i class="fa fa-address-book-o"></i></a><a href="#" class="btn btn-animated btn-default btn-sm marg_but">Visualiser le certificat de situation administrative détaillé <i class="fa fa-address-card-o"></i></a></div>
-                  </div>
-                </div>
-                <!-- fin situation administrative -->
-                <div class="separator"></div>
-                <!-- debut synthèse -->
-                <h5>Synthèse</h5>
-                <div>
-                  <table class="table">
-                    <tr>
-                      <td><h6>Date</h6></td>
-                      <td><h6>Nature</h6></td>
-                    </tr>
-                    <tr>
-                      <td>17/06/2008</td>
-                      <td class="info_red">Première immatriculation</td>
-                    </tr>
-                    <tr>
-                      <td>21/01/2009</td>
-                      <td class="info_red">Achat</td>
-                    </tr>
-                    <tr>
-                      <td>23/10/2009</td>
-                      <td class="info_red">Achat</td>
-                    </tr>
-                    <tr>
-                      <td>18/11/2009</td>
-                      <td class="info_red">Déclaration de réimmatriculation à l'étranger</td>
-                    </tr>
-                    <tr>
-                      <td>03/12/2009</td>
-                      <td class="info_red">Changement de titulaire  et réimmatriculation France</td>
-                    </tr>
-                    <tr>
-                      <td>17/06/2016</td>
-                      <td class="info_red">Changement de titulaire</td>
-                    </tr>
-                  </table>
-                </div>
-                <!-- fin synthèse -->
-              </div>
-            </div>
-          </div>
-          <!-- fin tout voir -->
         </div>
-        <!-- main end -->
+        <!-- fin tout voir -->
       </div>
     </div>
-  </section>
-  <!-- main-container end -->
+    <!-- row -->
+  </div>
+  <!-- container -->
   <!-- footer start -->
   <footer id="footer" class="clearfix dark">
     <!-- .footer start -->
@@ -1031,7 +929,7 @@
         <div class="subfooter-inner">
           <div class="row">
             <div class="col-md-12">
-              <p class="text-center">Copyright &copy; 2017 <a href="#">Site HistoVec</a></p>
+              <p class="text-center">Copyright &copy; 2018 <a href="index.html">Site HistoVec</a></p>
             </div>
           </div>
         </div>
@@ -1048,6 +946,23 @@
 <script>
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+<script>
+$(".pop").popover({ trigger: "manual" , html: true, animation:false})
+    .on("mouseenter", function () {
+        var _this = this;
+        $(this).popover("show");
+        $(".popover").on("mouseleave", function () {
+            $(_this).popover('hide');
+        });
+    }).on("mouseleave", function () {
+        var _this = this;
+        setTimeout(function () {
+            if (!$(".popover:hover").length) {
+                $(_this).popover("hide");
+            }
+        }, 500);
 })
 </script>
 <!-- Modernizr javascript -->
